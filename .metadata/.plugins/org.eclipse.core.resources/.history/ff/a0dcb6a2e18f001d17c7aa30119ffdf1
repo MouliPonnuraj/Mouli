@@ -1,0 +1,14 @@
+package ThreadDemo;
+import java.util.*;
+public class IntrestDetails extends Thread {
+   public void sIntrest(){
+	   float Sintrest=(200*5/5);
+	   System.out.println("Intrest is:"+Sintrest); 
+	   
+   }
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

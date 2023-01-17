@@ -1,0 +1,21 @@
+package SkipListDemo;
+import java.util.Map.Entry;
+import java.util.concurrent.*;
+public class ConcurrenctSkipList {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ConcurrentSkipListMap<String,String> skiplist=new ConcurrentSkipListMap();
+		skiplist.put("P","Putinia");
+		skiplist.put("C","Cosmos");
+		skiplist.put("M","Marie gold");
+		skiplist.put("Z","Zinia");
+		skiplist.put("G","Gerenia");
+		skiplist.put("S","Snapdragon");
+		System.out.println(skiplist);
+		System.out.println(skiplist.firstEntry());
+		System.out.println(skiplist.floorEntry("M"));
+		System.out.println(skiplist.ceilingEntry("P"));
+	}
+
+}

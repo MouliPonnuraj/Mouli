@@ -1,0 +1,17 @@
+package Strings;
+
+public class String1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+      String str="It is raining outside!Can I have a raincoat Please";
+      String[] word = str.split(" ");
+
+
+      System.out.print("word = ");
+      for (String str1 : word) {
+        System.out.print(str1 + "# ");
+      }
+	}
+
+}

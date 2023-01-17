@@ -1,0 +1,19 @@
+package Strings;
+
+public class String1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+      String str="It is raining outside!Can I have a raincoat Please";
+      char[] chArray;
+      char[] strChArr=str.toCharArray();
+      int vowels=0;
+      for(char ch:chArray){
+  if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'){
+	  vowels++;
+  }
+      }System.out.println(vowel);
+      
+	}
+
+}

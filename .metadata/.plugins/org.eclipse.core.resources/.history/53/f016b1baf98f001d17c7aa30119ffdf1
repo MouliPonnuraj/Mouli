@@ -1,0 +1,19 @@
+package ThreadDemo;
+
+public class NumThread extends Thread {
+	 
+	public void Print(){
+	for(int i=0;i<10;i++){
+    	 System.out.print(  i);
+     }}
+	public void run(){
+		Print();
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+     
+    
+	}
+
+}

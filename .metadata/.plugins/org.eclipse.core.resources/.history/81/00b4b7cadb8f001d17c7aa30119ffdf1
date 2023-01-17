@@ -1,0 +1,18 @@
+package ThreadDemo;
+
+public class CustomersThread extends Thread{
+     public void run(){
+    	 try{
+    		 String[] cust;
+    		 Thread.sleep(2000);
+    		 System.out.println(cust);
+    	 }catch(InterruptedException e){
+    		 System.out.println(e);
+    	 }
+     }
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

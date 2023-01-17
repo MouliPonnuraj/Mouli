@@ -1,0 +1,11 @@
+package ComparatorDemo;
+import java.util.*;
+  public class SortByName implements Comparator<Revenue>{
+	  
+  }
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
